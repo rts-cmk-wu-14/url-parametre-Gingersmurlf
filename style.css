@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.wrapper {
+    height: 100lvh;
+    margin: 0 auto;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parent {
+    margin-top: 10px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.bottom {
+    background-color: #CEF9FF;
+    height: 4.5rem;
+    max-width: 18rem;
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.svg {
+    height: 1rem;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
