@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
 img {
     width: 18rem;
     height: 18rem;
@@ -47,4 +56,6 @@ img {
 a {
     text-decoration: none;
     color: black;
+    font-size: 14px;
+    font-weight: regular;
 }
