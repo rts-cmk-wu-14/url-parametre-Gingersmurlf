@@ -11,8 +11,11 @@ function handleDestinations(data) {
     console.log(data);
     let first
 
-    first = `
-        <div class="image-container"><img class="thumbnail" src="/img/${data.image}"></div>
+    first = /*html */
+    `
+        <div class="image-container"><img class="thumbnail" src="/img/${data.image}">
+        
+        </div>
         <div class="content">
             <h2>${data.destination}</h2>
             <h1>${data.title}</h1>
