@@ -12,9 +12,10 @@ function handleDestinations(data) {
     let first
 
     first = /*html */
-    `
+        `
         <div class="image-container"><img class="thumbnail" src="/img/${data.image}">
-        
+            <img class="svg" src="/img/black-heart.svg">
+            <p class="favorit">FAVORIT</p>
         </div>
         <div class="content">
             <h2>${data.destination}</h2>

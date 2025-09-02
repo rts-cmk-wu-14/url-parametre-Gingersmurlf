@@ -69,8 +69,26 @@ p {
     height: 100lvh;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 #wrapper {
     display: flex;
+}
+
+.svg {
+    height: 3rem;
+    width: auto;
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 35rem;
+}
+
+.favorit {
+    position: absolute;
+    z-index: 10;
+    top: 5.1875rem;
+    left: 39rem;
+    font-weight: bold;
 }

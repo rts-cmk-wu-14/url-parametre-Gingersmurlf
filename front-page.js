@@ -9,7 +9,7 @@ function handleDestinations(data) {
     let first
 
 
-    let grid =
+    let grid = /*HTML*/
     `
     <div id="grid"></div>
     `
